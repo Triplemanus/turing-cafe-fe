@@ -5,7 +5,7 @@ export default class Form extends Component {
   constructor() {
     super();
     this.state = {
-      id: '',
+      // id: '',
       name: '',
       date: '',
       time: '',
@@ -63,7 +63,7 @@ export default class Form extends Component {
         value={this.state.number}
         name='number'
         onChange={this.handleChange}
-      />
+        />
         <button 
           onClick={this.submitNewRes}
         >
