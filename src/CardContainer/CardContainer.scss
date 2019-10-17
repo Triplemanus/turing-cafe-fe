@@ -1,4 +1,4 @@
-.card-components {
+  .card-components {
   height: 85%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -10,9 +10,3 @@
     margin-top: 50px;
   }
 }
-
-/* .favorites-message {
-  display: grid;
-  text-align: center;
-  grid-area: 1 / 3 / 4 / 4
-} */

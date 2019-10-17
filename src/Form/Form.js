@@ -64,7 +64,7 @@ export default class Form extends Component {
         name='number'
         onChange={this.handleChange}
         />
-        <button 
+        <button className="submit-button"
           onClick={this.submitNewRes}
         >
           Submit Reservation
