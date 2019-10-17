@@ -3,7 +3,6 @@ import './Card.scss';
 import PropTypes from 'prop-types';
 
 const ResyCard = ({ id, name, date, time, number }) => {
-  // console.log('resy data ', number);
   return (
     <section className="card">
       <article className="card-title">

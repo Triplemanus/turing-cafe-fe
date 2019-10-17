@@ -31,7 +31,7 @@ describe('Form', () => {
       date: "10/31",
       number: "30"
     };
-    
+
     const expected = { name: '', time: '', date: '', number: '' };
     
     wrapper.instance().setState(defaultState);
@@ -40,16 +40,5 @@ describe('Form', () => {
 
     expect(wrapper.state()).toEqual(expected);
   });
-
-  // it('should call addIdea and resetInputs when submitNewIdea is called', () => {
-  //   global.Date.now = jest.fn().mockImplementation(() => 12345)
-  //   const mockEvent = { preventDefault: jest.fn() };
-  //   const expected = { title: '', description: '', id: 12345 };
-  //   wrapper.instance().resetInputs = jest.fn();
-  //   wrapper.instance().submitNewIdea(mockEvent);
-    
-  //   expect(mockAddIdea).toHaveBeenCalledWith(expected);
-  //   expect(wrapper.instance().resetInputs).toHaveBeenCalled();
-  // });
 
 })

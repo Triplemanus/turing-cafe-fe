@@ -34,13 +34,7 @@ class App extends Component {
     this.setState({ reservations: [...this.state.reservations, newRes]})
   }
 
-  // removeRes = id => {
-  //   const res = this.state.reservations.filter(res => res.id !== id);
-  //   this.setState({ reservations });
-  // }
-
   render() {
-    // console.log('state is ', this.state);
     return (
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
@@ -52,7 +46,6 @@ class App extends Component {
           {this.state.reservations.length !== 0 && <CardContainer resyData={this.state.reservations}/>}
 
           <article className='resy-card'>
-
           </article>
           
         </div>

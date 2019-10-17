@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './CardContainer.scss';
 import Card from '../Card/Card'
 import PropTypes from 'prop-types'
@@ -24,7 +24,6 @@ const CardContainer = ({ resyData }) => {
 }
 
 export default CardContainer;
-
 
 CardContainer.propTypes = {
   resyData: PropTypes.array.isRequired
