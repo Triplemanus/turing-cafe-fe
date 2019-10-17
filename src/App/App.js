@@ -39,15 +39,10 @@ class App extends Component {
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <div className='resy-form'>
-
+        <Form addRes={this.addRes} />
         </div>
         <div className='resy-container '>
-          <Form addRes={this.addRes} />
           {this.state.reservations.length !== 0 && <CardContainer resyData={this.state.reservations}/>}
-
-          <article className='resy-card'>
-          </article>
-          
         </div>
       </div>
     )

@@ -67,7 +67,7 @@ export default class Form extends Component {
         <button 
           onClick={this.submitNewRes}
         >
-          Submit!
+          Submit Reservation
         </button>
       </form>
     )
