@@ -26,6 +26,6 @@ const CardContainer = ({ resyData }) => {
 export default CardContainer;
 
 
-// CardContainer.propTypes = {
-//   data: PropTypes.array.isRequired
-// }
+CardContainer.propTypes = {
+  resyData: PropTypes.array.isRequired
+}

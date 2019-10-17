@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot with all data passed in correctly 1`] = `
+<section
+  className="card"
+>
+  <article
+    className="card-title"
+  >
+    <h3>
+       Name: 
+      <span>
+        Frankenstein
+      </span>
+    </h3>
+  </article>
+  <article
+    className="card-contents"
+  >
+    <h3>
+      Date: 
+      <span>
+        10/31
+      </span>
+    </h3>
+    <h3>
+      Time: 
+      <span>
+        24:00
+      </span>
+    </h3>
+    <h3>
+      Number: 
+      <span>
+        30
+      </span>
+    </h3>
+  </article>
+</section>
+`;
